@@ -1,5 +1,5 @@
 #include <iostream>
-#include "fstream"
+#include <fstream>
 
 int find_increases() {
     std::ifstream input("input.txt");
