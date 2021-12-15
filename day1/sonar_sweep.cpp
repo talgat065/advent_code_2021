@@ -20,6 +20,6 @@ int find_increases() {
 }
 
 int main () {
-    std::cout << part1() << std::endl;
+    std::cout << find_increases() << std::endl;
 }
 
