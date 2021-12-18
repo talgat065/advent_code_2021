@@ -2,6 +2,8 @@
 #include <vector>
 #include <fstream>
 
+#pragma once
+
 int find_increases() {
     std::ifstream input("input.txt");
 
@@ -32,7 +34,6 @@ int find_increases() {
     return result - 1;
 }
 
-int main () {
+int main1 () {
     std::cout << find_increases() << std::endl;
 }
-
