@@ -34,6 +34,6 @@ int find_increases() {
     return result - 1;
 }
 
-int main1 () {
+int main () {
     std::cout << find_increases() << std::endl;
 }
